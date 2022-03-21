@@ -1,0 +1,30 @@
+{
+  "name": "fake-server-template",
+  "version": "1.0.0",
+  "description": "Fake JSON Server App for prototyping",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node index.js > db.json",
+    "serve": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bibutikoley/Fake-Server-Template.git"
+  },
+  "keywords": [
+    "Fake",
+    "Server"
+  ],
+  "author": "Bibuti Koley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bibutikoley/Fake-Server-Template/issues"
+  },
+  "homepage": "https://github.com/bibutikoley/Fake-Server-Template#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^6.0.0"
+  }
+}
